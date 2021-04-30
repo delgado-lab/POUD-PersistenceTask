@@ -27,15 +27,16 @@ obstacle setbacks in both conditions.
 - Uncontrollable Obstacles - setbacks framed as random
 - Controllable Obstacles - setbacks framed as due to “incorrect” response
 - Progress Cues (green triangle)
-Timing Information:
+
+#### Timing Information:
 Event Timing - Path Choice (2s), fixation (2s/4s/6s) (50%/25%/25%), Obtacle Cue (2s), 2s/4s/6s (50%/25%/25%) Fixation (no fixation between cue and
 outcome for Progress Cues), Obstacle Outcome-Setback received/avoided (2s), fixation (2s/4s/6s) (50%/25%/25%)  
 
-Trial Counts and other details:  
+#### Trial Counts:  
 10 rounds, 32 obstacle cues, 20 setbacks and 12 avoided setbacks (60% of obstacles result in setback), 20
 persistence choices (after each setback), 12 progress cues  
 
-How to interpret output files:  
+#### How to interpret output files:  
 EventType: 1=uncontrollable obstacle, 2=controllable obstacle, 3=progress cue, 4=path choice, 6=goal feedback  
 
 Lose: 1=setback received, 0=setback avoided, -1=event was path choice or goal feedback  
@@ -44,7 +45,7 @@ Persist: 1 = choice to try again on the same path where a setback was just exper
 different path than the one where the setback was experienced, -2=first path choice of the round, not included in
 persistence calculation, -1 = no response given for path choice  
 
-Other notes:  
+#### Other notes:  
 
 To calculate Behavioral Persistence for each participant,  take the number of Persist choices (coded as “1” in the
 “Persist” column of output for each condition, and divide by the total number of post-setback choices (choices with
