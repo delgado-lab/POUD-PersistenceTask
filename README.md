@@ -1,5 +1,5 @@
 # POUD-PersistenceTask
-Experiment Files and documentation for Bhanji, J. P., Delgado, M. R., &amp; Ray, S. (2021). https://doi.org/10.1080/00952990.2021.1888960  
+Experiment Files and documentation for Bhanji, J. P., Delgado, M. R., &amp; Ray, S. (2021). https://doi.org/10.1080/00952990.2021.1888960 (pdf included in this repository as "BhanjiDelgadoRay2021.pdf"  
 
 - PathTask-eprime folder contains e-prime files to run the behavioral task  
 - code folder contains jupyter notebooks with python code to extract behavioral data from e-prime output files (description in notebook comments)  
